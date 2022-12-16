@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "Language-Learning-App",
-    "slug": "Language-Learning-App",
+    "slug": "language-learning-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89cb6d27-426e-453d-a21b-a8b284d3a746"
+      }
+    },
+    "owner": "furkan.nane"
   }
 }
